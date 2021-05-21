@@ -1,8 +1,12 @@
 {
   "name": "rebuild-container",
-  "version": "0.1.0",
-  "description": "rebuild-container",
-  "keywords": ["rebuild-container"],
+  "version": "x.x.x",
+  "private": true,
+  "description": "",
+  "keywords": [
+    "rebuild",
+    "electron"
+  ],
   "bin": {
     "rebuild-container": "./bin/rebuild-container.js"
   },
