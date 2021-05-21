@@ -16,6 +16,10 @@
     "url": "git://github.com/xudafeng/rebuild-container.git"
   },
   "dependencies": {
+    "@journeyapps/sqlcipher": "4.1.0",
+    "electron": "11.3.0",
+    "electron-builder": "22.7.0",
+    "electron-rebuild": "2.3.5"
   },
   "devDependencies": {
     "eslint": "*",
@@ -26,6 +30,7 @@
     "nyc": "*"
   },
   "scripts": {
+    "postinstall": "sh ./scripts/rebuild.sh",
     "test": "nyc --reporter=lcov --reporter=text mocha",
     "lint": "eslint . --fix",
     "contributor": "git-contributor"
