@@ -7,10 +7,6 @@
     "rebuild",
     "electron"
   ],
-  "bin": {
-    "rebuild-container": "./bin/rebuild-container.js"
-  },
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/xudafeng/rebuild-container.git"
