@@ -16,7 +16,7 @@
     "url": "git://github.com/xudafeng/rebuild-container.git"
   },
   "dependencies": {
-    "journeyapps-sqlcipher-alt": "5",
+    "journeyapps-sqlcipher-alt": "5.2.0",
     "electron": "11.3.0",
     "electron-builder": "22.7.0",
     "electron-rebuild": "2.3.5"
