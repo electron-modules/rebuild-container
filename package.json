@@ -15,7 +15,8 @@
     "journeyapps-sqlcipher-alt": "5.2.0",
     "electron": "11.3.0",
     "electron-builder": "22.7.0",
-    "electron-rebuild": "2.3.5"
+    "electron-rebuild": "3.2.3",
+    "xprofiler": "^1.2.6"
   },
   "devDependencies": {
     "eslint": "*",
@@ -27,6 +28,7 @@
   },
   "scripts": {
     "postinstall": "sh ./scripts/rebuild.sh",
+    "dev": "electron ./index.js",
     "test": "nyc --reporter=lcov --reporter=text mocha",
     "lint": "eslint . --fix",
     "contributor": "git-contributor"
