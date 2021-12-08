@@ -12,10 +12,10 @@
     "url": "git://github.com/electron-modules/rebuild-container.git"
   },
   "dependencies": {
-    "journeyapps-sqlcipher-alt": "5.2.0",
-    "electron": "11.3.0",
+    "node-sqlcipher-alt": "6.0.1",
+    "electron": "13.5.1",
     "electron-builder": "22.7.0",
-    "electron-rebuild": "3.2.3",
+    "electron-rebuild": "3.2.5",
     "xprofiler": "^1.2.6"
   },
   "devDependencies": {
